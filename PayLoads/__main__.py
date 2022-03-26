@@ -5,7 +5,6 @@ class Payloads:
         lst = proc.split()
         lst.remove('__main__.py')
         lst.remove('__pycache__')
-        print('PayLoads:')
         for i in lst:
             print(i)
     
