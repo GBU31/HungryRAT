@@ -3,8 +3,11 @@ class Payloads:
         proc = subprocess.check_output(['ls', 'PayLoads'])
         proc = proc.decode()
         lst = proc.split()
-        lst.remove('__main__.py')
-        lst.remove('__pycache__')
+        try:
+            lst.remove('__main__.py')
+            lst.remove('__pycache__')
+        except:
+            pass
         for i in lst:
             print(i)
     
