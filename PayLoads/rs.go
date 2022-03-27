@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	reverse("127.0.0.1:6666")
+	reverse("0.0.0.0:4444")
 }
 
 func reverse(host string) {
