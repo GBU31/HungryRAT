@@ -2,7 +2,7 @@
 Remote access tool
 
 # NetCat
-lua nc.lua or nc -lp 4444
+lua nc.lua
 
 # Payloads
 python3 PayLoads
